@@ -712,3 +712,158 @@ a {
     }
 
   }
+
+  @media (max-width: 480px) {
+
+    .btn-md {
+      font-size: 13px;
+      padding: 12px 10px;
+      width: 100%;
+    }
+
+    /* Showcase */
+    #showcase {
+      margin: 0;
+      background: url('../img/berserk2.jpg') no-repeat center center/cover;
+      max-width: 100%;
+      height: 100%;
+    }
+
+    .showcase-header {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 4rem;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 2rem; /* reducing logo size so button can fit better */
+      font-family: 'Righteous', cursive;
+      color: var(--primary-color--hover);
+      margin-right: 40px;
+      margin-left: -20px;
+      float: left;
+    }
+
+    .showcase-header .btn-sm {
+      width: 50%;
+      margin-left: 0;
+      margin-right: 0;
+      float: right;
+    }
+
+    .cta {
+      margin-top: 120px;
+      font-size: 3rem;
+    }
+
+    #showcase h2 {
+      font-weight: normal;
+      font-size: 2rem;
+      margin-bottom: 60px;
+    }
+
+    .btn-lg {
+      font-size: 1.3rem;
+      padding: 1rem 2rem;
+    }
+
+    /* Anyplace */
+    #anyplace {
+    margin-bottom: 0;
+  }
+
+  /* Pricing */
+  #pricing {
+    padding-top: 2px;
+    padding-bottom: 4rem;
+  }
+
+  .pricing-header {
+    margin-left: 100px; /* reduced side margins for responsiveness */
+    margin-right: 100px; /* reduced side margins for responsiveness */
+    margin-top: 0;
+    margin-bottom: 3.4rem;
+    display: block;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+
+  .pricing-grid {
+    margin-left: 0;
+    margin-right: 0;
+    display: block;
+    text-align: center;
+  }
+
+  .pricing-plan-container {
+    height: 100%;
+    margin-bottom: 2.5rem; /* add spacing between pricing text and btn */
+  }
+
+  .pricing-btn-container {
+    margin-bottom: 4rem; /* add spacing between pricing btn and next heading */
+  }
+
+  .pricing-plan-container h4 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    /* reduce the spacing between the plan name and price */
+  }
+
+  .pricing-plan-container ul {
+    list-style: none;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 2rem;
+    line-height: 1.5;
+    color: var(--text-secondary-color);
+    font-size: 15px;
+  }
+
+}
+
+  /* Footer */
+  #footer {
+    color: var(--text-secondary-color);
+  }
+
+  .footer-header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 100px 60px 20px; /* adjusted margin for responsiveness */
+  }
+
+
+  #footer a {
+    color: var(--text-secondary-color);
+  }
+
+  #footer a:hover {
+    text-decoration: underline;
+  }
+
+  .footer-header a {
+    font-size: 1.2rem;
+  }
+
+  .footer-grid {
+    margin-left: 20px;  /* adjusted margins for responsiveness */
+    margin-right: 20px; /* adjusted margins for responsiveness */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* changed grid to 2 column layout */
+    text-align: left;
+  }
+
+  .footer-grid ul {
+    list-style: none;
+    line-height: 2;
+    font-size: 14px;
+    margin-bottom: 3rem;
+  }
+
+}
